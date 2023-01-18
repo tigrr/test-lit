@@ -23,6 +23,8 @@ export class MyElement extends LitElement {
   count = 0
 
   render() {
+    console.log('Lit render called')
+
     return html`
       <div>
         <a href="https://vitejs.dev" target="_blank">
